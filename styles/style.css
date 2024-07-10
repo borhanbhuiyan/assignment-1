@@ -10,7 +10,7 @@ body{
   margin: 0;
   padding: 0;
 }
-/* shared styles */
+/* shared styles  starts here*/
 .learn-btn{
 color: rgb(13, 19, 33);
 background-color: white;
@@ -23,8 +23,37 @@ padding: 12px 20px 12px 20px;
 box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
-
 }
+
+.target-skill-container ,h6{
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 15px;
+  }
+  .target-skill-container, p{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  }
+  .target-skill-container ,a{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  }
+/* shared styles ends here */
 
 
 /* banner section styles starts here*/          
@@ -208,7 +237,7 @@ align-items: flex-start;
 .inspiration{
   max-width: 900px;
   margin: 0 auto;
-  height: 700px;
+  height: 800px;
   margin-top: 90px;
 }
 .inspiration-heading{
@@ -235,8 +264,8 @@ opacity: 0.7;
 }
 .inspiration-video-container{
 position: static;
-width: 830px;
-height: 480px;
+width: 900px;
+height: 540px;
 margin: 0 auto;
 margin-top: 42px;
 flex: none;
@@ -252,12 +281,67 @@ border-radius: 16px;
 position: static;
 width: 830px;
 height: 480px;
+margin-top: 30px;
+margin-left: 35px;
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 border-radius: 16px;
-
-
 }
 /* inspiration-section ends here */
+/* target-section styles stats here */
+.target{
+  width: 900px;
+  height: 620px;
+  margin: 0 auto; 
+}
+.target-heading{
+  width: 800px;
+  margin: 0 auto;
+}
+.target-heading h5{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+}
+.target-heading p{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.target-skill-container{
+  width: 900px;
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.target-html-container{
+  width: 260px;
+  height: 380px;
+  background: #FFF6F4;
+  padding: 30px;
+}
+
+.target-css-container{
+  width: 260px;
+  height: 380px;
+  background: #F2F6FE;
+  padding: 30px;
+}
+
+.target-java-container{
+  width: 260px;
+  height: 380px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 30px;
+}
+/* target-section styles ends here */
