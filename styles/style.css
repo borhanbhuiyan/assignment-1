@@ -10,7 +10,24 @@ body{
   margin: 0;
   padding: 0;
 }
-/* banner section styles */
+/* shared styles */
+.learn-btn{
+color: rgb(13, 19, 33);
+background-color: white;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+padding: 12px 20px 12px 20px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+
+}
+
+
+/* banner section styles starts here*/
 
 .banner-container{
   max-width: 1520px;
@@ -65,3 +82,125 @@ background: rgb(13, 19, 33);
 margin-top: 30px;
 margin-bottom: 50px;
 }
+
+/* banner section styles starts here*/
+
+ /* why-dev-section styles starts here */
+ .why-dev-section{
+  max-width: 1520px;
+  margin: 80px 150px 80px 150px;
+ }
+ .why-dev-title{
+width: 900px;
+height: 125px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 90px;
+
+ }
+.why-dev-heading{
+color: rgb(13, 19, 33);
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.why-dev-description{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.i-will-do{
+  width: 900px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+  margin-bottom: 32px;
+}
+.i-will-do-content{
+width: 480px;
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.i-will-do-content h5{
+color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 15px;
+}
+.i-will-do-content p{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+margin-bottom: 36px;
+
+}
+.i-will-do-pic{
+  width: 260px;
+ height: 250px;
+}
+
+.i-will-help{
+  width: 900px;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+  margin-bottom: 32px;
+}
+.i-will-help-content{
+width: 480px;
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+
+}
+.i-will-help-content h5{
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 15px;
+  }
+  .i-will-help-content p{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 36px;
+  
+  }
+.i-will-help-pic{
+  width: 260px;
+ height: 250px;
+}
+
+/* why-dev-sections styles ends here */
