@@ -408,7 +408,6 @@ text-align: center;
   height: 50px;
   box-sizing: border-box;
   border: none;
-  /* border: 1px solid rgba(13, 19, 33, 0.15); */
   border-radius: 8px;
   display: flex;
   flex-direction: row;
@@ -429,6 +428,8 @@ text-align: center;
   padding: 17px 20px 17px 20px;
 
 }
+/* support section styles ends here */
+/* footer section styles start here */
 .footer-filed{
   width: 1520px;
   height: 100px;
@@ -441,4 +442,5 @@ text-align: center;
   padding-left: 300px;
   padding-right: 300px;
 }
-/* support section styles ends here */
+/* footer section styles ends here */
+
