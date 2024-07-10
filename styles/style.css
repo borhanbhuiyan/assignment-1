@@ -23,6 +23,7 @@ padding: 12px 20px 12px 20px;
 box-sizing: border-box;
 border: 1px solid rgb(13, 19, 33);
 opacity: 0.7;
+cursor: pointer;
 }
 
 .target-skill-container, h6{
@@ -109,6 +110,7 @@ padding: 20px 22px 20px 22px;;
 background: rgb(13, 19, 33);
 margin-top: 30px;
 margin-bottom: 50px;
+cursor: pointer;
 }
 
 /* banner section styles starts here*/
