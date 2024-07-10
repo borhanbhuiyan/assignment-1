@@ -331,6 +331,7 @@ opacity: 0.7;
   border: 1px solid white;
   background: #FFF6F4;
   padding: 30px;
+  border-radius: 15px;
 }
 
 .target-css-container{
@@ -339,6 +340,7 @@ opacity: 0.7;
   background: #F2F6FE;
   border: 1px solid white;
   padding: 30px;
+  border-radius: 15px;
 }
 
 .target-java-container{
@@ -347,6 +349,7 @@ opacity: 0.7;
   background: rgba(255, 223, 0, 0.05);
   border: 1px solid white;
   padding: 30px;
+  border-radius: 15px;
 }
 /* target-section styles ends here */
 
@@ -364,6 +367,7 @@ opacity: 0.7;
   align-items: center;
   margin-top: 80px;
   margin-bottom:80px;
+  border-radius: 15px;
 }
 .support-section-content{
   width: 800px;
@@ -419,6 +423,7 @@ opacity: 0.7;
   font-weight: 500;
   text-align: center;
   border-radius: 8px;
+  cursor: pointer;
 }
 /* support section styles ends here */
 
